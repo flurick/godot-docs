@@ -9,22 +9,18 @@ Rationale
 Having a scene and throwing nodes into it might work for small projects,
 but as a project grows, more and more nodes are used and it can quickly
 become unmanageable. To solve this, Godot allows a project to be
-separated in several scenes. This, however, does not work the same way
-as in other game engines. In fact, it's quite different, so please do
+separated in several scenes. This does not work the same way
+as in other game engines, it's quite different, so please do
 not skip this tutorial!
 
-To recap: A scene is a collection of nodes organized as a tree, where
-they can have only one single node as the tree root.
+A scene is a collection of nodes organized as a tree, 
+where they can have only one single node as the tree root.
 
 .. image:: /img/tree.png
 
 In Godot, a scene can be created and saved to disk. As many scenes
-can be created and saved as desired.
-
-.. image:: /img/instancingpre.png
-
-Afterwards, while editing an existing or a new scene, other scenes can
-be instanced as part of it:
+can be created and saved as desired. While editing a scene, 
+other scenes can be instanced as part of it:
 
 .. image:: /img/instancing.png
 
@@ -50,8 +46,6 @@ project by using the 'Edit' option.
 This project contains two scenes "ball.scn" and "container.scn". The
 ball scene is just a ball with physics, while container scene has a
 nicely shaped collision, so balls can be thrown in there.
-
-.. image:: /img/tutorial-instancing-scene-ball-2.1.png
 
 .. image:: /img/tutorial-instancing-scene-container-2.1.png
 
@@ -101,4 +95,4 @@ Conclusion
 ----------
 
 Instancing seems handy, but there is more to it than it meets the eye!
-The next part of the instancing tutorial should cover the rest..
+The next part of the instancing tutorial should cover the rest...
