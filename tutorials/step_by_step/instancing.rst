@@ -41,7 +41,7 @@ project: :download:`instancing.zip </files/instancing.zip>`.
 Unzip this scene in any place of your preference. Then, add this scene to
 the project manager using the 'Import' option:
 
-.. image:: /img/importproject.png
+.. image:: /img/import-2.1.png
 
 Simply browse to inside the project location and open the "engine.cfg"
 file. The new project will appear on the list of projects. Edit the
@@ -51,24 +51,18 @@ This project contains two scenes "ball.scn" and "container.scn". The
 ball scene is just a ball with physics, while container scene has a
 nicely shaped collision, so balls can be thrown in there.
 
-.. image:: /img/ballscene.png
+.. image:: /img/tutorial-instancing-scene-ball-2.1.png
 
-.. image:: /img/contscene.png
+.. image:: /img/tutorial-instancing-scene-container-2.1.png
 
-Open the container scene, then select the root node:
+Open the container scene, select the root and click the link like button, the instancing button!
 
-.. image:: /img/controot.png
-
-Afterwards, push the '+' shaped button, this is the instancing button!
-
-.. image:: /img/continst.png
+.. image:: /img/tutorial-instancing-container-instance-root-2.1.png
 
 Select the ball scene (ball.scn), the ball should appear in the origin
-(0,0), move it to around the center
+(0,0), move it to the center of the scene, like this:
 
-of the scene, like this:
-
-.. image:: /img/continstanced.png
+.. image:: /img/tutorial-instancing-container-ball-instanced-2.1.png
 
 Press Play and Voila!
 
@@ -82,7 +76,7 @@ A little more
 There can be as many instances as desired in a scene, just try
 instancing more balls, or duplicating them (ctrl-D or duplicate button):
 
-.. image:: /img/instmany.png
+.. image:: /img/tutorial-instancing-container-balls-instanced-2.1.png
 
 Then try running the scene again:
 
@@ -97,7 +91,7 @@ Select one of the many copies of the balls and go to the property
 editor. Let's make it bounce a lot more, so look for the bounce
 parameter and set it to 1.0:
 
-.. image:: /img/instedit.png
+.. image:: /img/tutorial-instancing-container-bounce-2.1.png
 
 The next it will happen is that a green "revert" button appears. When
 this button is present, it means we modified a property from the
