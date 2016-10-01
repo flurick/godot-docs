@@ -55,7 +55,7 @@ nicely shaped collision, so balls can be thrown in there.
 
 .. image:: /img/tutorial-instancing-scene-container-2.1.png
 
-Open the container scene, select the root and click the link like button, the instancing button!
+Open the container scene, select the root and click the instancing button!
 
 .. image:: /img/tutorial-instancing-container-instance-root-2.1.png
 
@@ -74,7 +74,7 @@ A little more
 -------------
 
 There can be as many instances as desired in a scene, just try
-instancing more balls, or duplicating them (ctrl-D or duplicate button):
+instancing more balls, or duplicating them (Ctrl-D or duplicate button):
 
 .. image:: /img/tutorial-instancing-container-balls-instanced-2.1.png
 
@@ -89,16 +89,13 @@ Editing instances
 
 Select one of the many copies of the balls and go to the property
 editor. Let's make it bounce a lot more, so look for the bounce
-parameter and set it to 1.0:
+parameter and set it to 1:
 
 .. image:: /img/tutorial-instancing-container-bounce-2.1.png
 
-The next it will happen is that a green "revert" button appears. When
-this button is present, it means we modified a property from the
-instanced scene to override for a specific value in this instance. Even
-if that property is modified in the original scene, the custom value
-will always overwrite it. Pressing the revert button will restore the
-property to the original value that came from the scene.
+A revert button appears, pressing the revert button will restore the
+property to the value set in the original scene. Even if a property is 
+modified in the original scene, the custom value will always overwrite it. 
 
 Conclusion
 ----------
